@@ -1,0 +1,34 @@
+{
+  "name": "ReactNativeFidelidade",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "android-staging": "ENVFILE=.env.staging react-native run-android",
+    "android-prod": "ENVFILE=.env.prod react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone 8\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "query-string": "^6.1.0",
+    "react": "^16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-camera": "^1.1.4",
+    "react-native-config": "^0.11.5",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.9.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
